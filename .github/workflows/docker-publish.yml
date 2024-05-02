@@ -36,4 +36,4 @@ jobs:
         # Only run this step if the branch is main
         if: github.ref == 'refs/heads/main'
         run: |
-          curl ${{ secrets.RENDER_DEPLOY_HOOK_URL }}%26imgURL%3Ddocker.io%2F${{ secrets.DOCKER_USERNAME }}%2Fresumemaker%3A${{ steps.date.outputs.date }}
+          curl ${{ secrets.RENDER_DEPLOY_HOOK_URL }}&imgURL=docker.io%2F${{ secrets.DOCKER_USERNAME }}%2Fresumemaker%40${{ steps.date.outputs.date }}
