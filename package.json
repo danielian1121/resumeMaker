@@ -1,0 +1,25 @@
+{
+  "name": "resumemaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "github.com:danielian1121/resumeMaker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielian1121/resumeMaker/issues"
+  },
+  "homepage": "https://github.com/danielian1121/resumeMaker#readme",
+  "description": "",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.15.3"
+  }
+}
